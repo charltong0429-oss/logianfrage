@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+slave-app/node_modules/
+slave-electron/node_modules/
+
+# Build outputs
+out/
+dist/
+slave-app/dist/
+slave-app/.vercel/
+
+# Electron-vite cache
+.vite/
+
+# macOS
+.DS_Store
+
+# Local PDF test files
+*.PDF
+*.pdf
+
+# Test folders
+Auftrag_test/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# gstack internal
+.gstack/
